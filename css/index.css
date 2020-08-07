@@ -70,6 +70,21 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.logo{
+    display: inline-block;
+    width:25%;
+
+  }
+  .button{
+    display: inline-block;
+    width: 60%;
+    margin: 2% 2% 0 0;
+  }
+  a{
+    text-decoration: none;
+    display: inline-block;
+    width:10%;
+}
 
 .top-content {
     display: flex;
@@ -78,7 +93,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.path-image{
+    margin: 2%;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
@@ -143,4 +160,78 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.boxes{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2%;
+  }  
+.box1{
+    background-color:teal ;
+    width:100px;
+    height:100px;
+}
+.box2{
+    background-color:gold ;
+    width:100px;
+    height:100px;
+}
+.box3{
+    background-color:cadetblue ;
+    width:100px;
+    height:100px;
+}
+.box4{
+    background-color:coral ;
+    width:100px;
+    height:100px;
+}
+.box5{
+    background-color:crimson ;
+    width:100px;
+    height:100px;
+}
+.box6{
+    background-color:forestgreen ;
+    width:100px;
+    height:100px;
+}
+.box7{
+    background-color:darkorchid;
+    width:100px;
+    height:100px;
+}
+.box8{
+    background-color:hotpink ;
+    width:100px;
+    height:100px;
+}
+.box9{
+    background-color:indigo ;
+    width:100px;
+    height:100px;
+}
+.box10{
+    background-color:dodgerblue ;
+    width:100px;
+    height:100px;
+}
+#middle{
+    margin:2%;
+    display: flex;
+    justify-content: space-between;
+}
+#Nextmiddle{ 
+    margin:2%;
+    display: flex;
+    justify-content: space-between;
+}
+.stackup{
+    padding:2%;
+
+}
+.stackup2{
+    padding:2%;x
+    
 }
